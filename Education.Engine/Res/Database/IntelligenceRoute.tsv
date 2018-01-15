@@ -1,0 +1,14 @@
+﻿StepNo:Int	Content:LongString	Options:LongString	OptionRegex	NextStep	CourseName	AskbackMessage
+1	file://d:\data\ta\mt_defination.txt	a) History b) Definition again	^[abAB]$	a:2;b:1	MultiplicationTable	Please input the option item, otherwise you will exit by inputting any charactor
+2	file://d:\data\ta\mt_histroy.txt	a) 9x9 table b) 12x12 table c) Backword	^[abcABC]$	a:3;b:4;c:b	MultiplicationTable	Please input the option item, otherwise you will exit by inputting any charactor
+3	file://d:\data\ta\mt_9.txt	a) 12x12 table b) Why do we need multiplication table? c) Backword	^[abcABC]$	a:4;b:5;c:b	MultiplicationTable	Please input the option item, otherwise you will exit by inputting any charactor
+4	file://d:\data\ta\mt_12.txt	a) 9x9 table 6 b) Why do we need multiplication table? c) Backword	^[abcABC]$	a:3;b:5;c:b	MultiplicationTable	Please input the option item, otherwise you will exit by inputting any charactor
+5	file://d:\data\ta\mt_necessary.txt	a) How to learn? b) Backword	^[abAB]$	a:6;b:b	MultiplicationTable	Please input the option item, otherwise you will exit by inputting any charactor
+6	file://d:\data\ta\mt_howtolearn.txt	a) patterns b) tips c) Backword	^[abcABC]$	a:7;b:8;c:b	MultiplicationTable	Please input the option item, otherwise you will exit by inputting any charactor
+7	file://d:\data\ta\mt_patterns.txt	a) tips b) Backword	^[abAB]$	a:8;b:b	MultiplicationTable	Please input the option item, otherwise you will exit by inputting any charactor
+8	file://d:\data\ta\mt_tips.txt	a) memory squars b) Backword	^[abAB]$	a:9;b:b	MultiplicationTable	Please input the option item, otherwise you will exit by inputting any charactor
+9	file://d:\data\ta\mt_squares.txt	a) 3x3 table b) 5x5 table c) 7x7 table d) Backword	^[abcdABCD]$	a:10;b:11;c:12;d:b	MultiplicationTable	Please input the option item, otherwise you will exit by inputting any charactor
+10	file://d:\data\ta\mt_3.txt	a) 5x5 table b) 7x7 table c) Backword	^[abcABC]$	a:11;b:12;c:b	MultiplicationTable	Please input the option item, otherwise you will exit by inputting any charactor
+11	file://d:\data\ta\mt_5.txt	a) 7x7 table b) Backword	^[abAB]$	a:12;b:b	MultiplicationTable	Please input the option item, otherwise you will exit by inputting any charactor
+12	file://d:\data\ta\mt_7.txt	a) Finish b) Replay c) Backword	^[abcABC]$	a:13;b:1;c:b	MultiplicationTable	Please input the option item, otherwise you will exit by inputting any charactor
+13	Course completed. Input "I want to learn" to learn the course again. 				MultiplicationTable	Please input the option item, otherwise you will exit by inputting any charactor

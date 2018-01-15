@@ -1,0 +1,6 @@
+﻿Remembering the squares (2×2=4,	3×3=9, 4×4=16 ...) might help.
+When the numbers we are multiplying are separated by 2 (example 7 and 5), then multiply the number in the middle by itself and subtract one. See this:
+5×5 = 25 is just one bigger than 6×4 = 24
+6×6 = 36 is just one bigger than 7×5 = 35
+7×7 = 49 is just one bigger than 8×6 = 48
+8×8 = 64 is just one bigger than 9×7 = 63

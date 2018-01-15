@@ -1,0 +1,7 @@
+﻿{
+  "Education.Engine.Components.Exam.AnswerMatchSummerizer": 
+  {
+    "SingleItemTemplate": "Question: ${QUESTION}, answer: ${USER_ANSWER} [X]. Correct answer: ${CORRECT_ANSWER}\r\n",
+    "SummeryTemplate": "Totally ${TOTAL_NUMBER} questions, and ${CORRECT_NUMBER} correct answers. Your score is ${USER_SCORE}/${TOTAL_SCORE}.\r\n"
+  }
+}

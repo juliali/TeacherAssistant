@@ -1,0 +1,54 @@
+﻿{
+  "a": {
+    "count": 5,
+    "askbackTimeLimitation": 1,
+    "tableName": "Examination",
+    "courseName": "算数口算",
+    "description": "",
+    "genType": "RandomSelection",
+    "dispType": "AllInSummary",
+    "quitType": "SummeryImmediately",
+    "summerizerClassName": "Education.Engine.Components.Exam.AnswerMatchSummerizer",
+    "quitMessage": "",
+    "restartMessage": ""
+  },
+  "b": {
+    "count": 5,
+    "askbackTimeLimitation": 1,
+    "tableName": "Examination",
+    "courseName": "英语单词拼写",
+    "description": "",
+    "genType": "RandomSelection",
+    "dispType": "AllInSummary",
+    "quitType": "SummeryImmediately",
+    "summerizerClassName": "Education.Engine.Components.Exam.AnswerMatchSummerizer",
+    "quitMessage": "",
+    "restartMessage": ""
+  },
+  "c": {
+    "count": -1,
+    "askbackTimeLimitation": 1,
+    "tableName": "Examination",
+    "courseName": "趣味诗词问答",
+    "description": "",
+    "genType": "Overall",
+    "dispType": "OnebyOne",
+    "quitType": "DispatchedWithoutSummry",
+    "summerizerClassName": "Education.Engine.Components.Exam.AnswerMatchSummerizer",
+    "quitMessage": "",
+    "restartMessage": ""
+  },
+  "d": {
+    "count": -1,
+    "askbackTimeLimitation": 1,
+    "tableName": "Examination",
+    "courseName": "DICS性格测试",
+    "description": "在每一个大标题中的四个选择题中只选择一个最符合你自己的。请按第一印象最快的选择，如果不能确定，可回忆童年时的情况，或者以你最熟悉的人对你的评价来从中选择。",
+    "genType": "Overall",
+    "dispType": "AllInSummary",
+    "quitType": "CachedWithoutSummry",
+    "summerizerClassName": "Education.Engine.Components.Exam.DICSSummerizer",
+    "quitMessage": "中途退出测试将无法获得测试结果，你之前填写的答案将被保留8小时，下次进入本测试可继续进行。",
+    "restartMessage": "是否要继续上次已经保留的部分？输入“Y”继续进行，输入“N”重新开始"
+  }
+}

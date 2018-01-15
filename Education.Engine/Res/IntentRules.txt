@@ -1,0 +1,2 @@
+﻿^(I|i)(\s)*(want|Want|WANT)(\s)*(to)(\s)*(do)(\s)*(exam|Exam|examination)$	DoExam	
+^(I|i)(\s)*(want|Want|WANT)(\s)*(to)(\s)*(learn|Learn)$	IntelligenceRoute	

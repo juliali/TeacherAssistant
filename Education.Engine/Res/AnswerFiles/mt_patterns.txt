@@ -1,0 +1,13 @@
+﻿Patterns.
+There are some patterns which can help you remember:
+2× is just doubling the number. The same as adding the number to itself.
+2×2=4, 2×3=6, 2×4=8, etc.
+So the pattern is 2, 4, 6, 8, 10, 12, 14, 16, 18, 20
+
+And once you remember those, you also know 3×2, 4×2, 5×2, etc., right?
+5× has a pattern: 5, 10, 15, 20, etc. It ends in either 0 or 5.
+
+9× has a pattern, too: 9, 18, 27, 36, 45, 54, 63, 72, 81, 90
+Now, notice how the "ones" place goes down: 9,8,7,6, ...? And at the same time, the "tens" place goes up: 1,2,3,...? Well, your hands can help!
+
+Example: to multiply 9 by 8: hold your 8th finger down, and you can count "7" and "2" ... the answer is 72

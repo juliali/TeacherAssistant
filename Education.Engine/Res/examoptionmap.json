@@ -1,0 +1,44 @@
+﻿{
+  "a": {
+    "count": 5,
+    "askbackTimeLimitation": 1,
+    "tableName": "Examination",
+    "courseName": "Arithmetic",
+    "columnName": "算数口算",
+    "description": "",
+    "genType": "RandomSelection",
+    "dispType": "AllInSummary",
+    "quitType": "SummeryImmediately",
+    "summerizerClassName": "Education.Engine.Components.Exam.AnswerMatchSummerizer",
+    "quitMessage": "",
+    "restartMessage": ""
+  },
+  "b": {
+    "count": 5,
+    "askbackTimeLimitation": 1,
+    "tableName": "Examination",
+    "courseName": "Multiplication",
+    "columnName": "乘法",
+    "description": "",
+    "genType": "RandomSelection",
+    "dispType": "AllInSummary",
+    "quitType": "SummeryImmediately",
+    "summerizerClassName": "Education.Engine.Components.Exam.AnswerMatchSummerizer",
+    "quitMessage": "",
+    "restartMessage": ""
+  },
+  "c": {
+    "count": 5,
+    "askbackTimeLimitation": 1,
+    "tableName": "Examination",
+    "courseName": "Division",
+    "columnName": "除法",
+    "description": "",
+    "genType": "RandomSelection",
+    "dispType": "AllInSummary",
+    "quitType": "SummeryImmediately",
+    "summerizerClassName": "Education.Engine.Components.Exam.AnswerMatchSummerizer",
+    "quitMessage": "",
+    "restartMessage": ""
+  }
+}

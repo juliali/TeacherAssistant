@@ -1,0 +1,24 @@
+﻿Tip 1: Order Does Not Matter
+When we multiply two numbers, it does not matter which is
+first or second, the answer is always the same.
+
+Example: 3×5=15, and 5×3=15
+Another Example: 2×9=18, and 9×2=18
+
+In fact half of the table is a mirror image of the other!
+So, don't memorize both "3×5" and "5×3", just memorize that "a 3 and a 5 make 15" when multiplied.
+This is very important! It nearly cuts the whole job in half.
+
+In your mind you should think of 
+3 and 5 "together" making 15.
+
+So you should be thinking something like this:
+
+3x5 thought
+
+Tip 2: Learn the Tables in "Chunks"
+It is too hard to put the whole table into your memory at once. So, learn it in "chunks" ...
+A  Start by learning the 5 times table.
+B  Then learn up to 9 times 5.
+C  Is the same as B, except the questions are the other way around. Learn it too.
+D  Lastly learn the "6×6 to 9×9" chunk 

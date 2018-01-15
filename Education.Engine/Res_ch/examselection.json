@@ -1,0 +1,7 @@
+﻿{
+  "optionMessage": "请选择你要做的测试\r\n",
+  "askbackTimeLimitation": 1,
+  "optionRegex": "^[a-dA-D]$",
+  "askbackMessage": "选择过程中请只输入选项字母，不要有其他字符。\r\n如果还要继续选择测试内容，请重新输入，否则请随便输入一个其他字符退出。",
+  "quitMessage": "已退出测试，再次输入“我要做题”可重新进入"
+}

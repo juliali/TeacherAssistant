@@ -1,0 +1,2 @@
+﻿^我要做题$	DoExam
+^我要学习$	IntelligenceRoute

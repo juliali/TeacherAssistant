@@ -1,0 +1,47 @@
+﻿[
+  {
+    "intent": "ShowTable",
+    "qaType": "Dynamic",
+    "answer": "Education.Engine.Components.QA.MTQuerier"
+  },
+  {
+    "intent": "Greeting",
+    "qaType": "Direct",
+    "answer": "Hi, this is multiplication table teacher. You can ask questions about multiplication table definition, history, learning method or tips. You can also input \"I want to learn\" to take course of multiplication table, or input \"I want to do exam\" to do test."
+  },
+  {
+    "intent": "Thanks",
+    "qaType": "Direct",
+    "answer": "You are welcome."
+  },
+  {
+    "intent": "None",
+    "qaType": "Direct",
+    "answer": "Don't understand your question. Please make sure what you asked is about multiplication tables."
+  },
+  {
+    "intent": "Definition",
+    "qaType": "File",
+    "answer": "Education.Engine.Res.AnswerFiles.mt_defination.txt"
+  },
+  {
+    "intent": "History",
+    "qaType": "File",
+    "answer": "Education.Engine.Res.AnswerFiles.mt_histroy.txt"
+  },
+  {
+    "intent": "Method",
+    "qaType": "File",
+    "answer": "Education.Engine.Res.AnswerFiles.mt_howtolearn.txt"
+  },
+  {
+    "intent": "Usage",
+    "qaType": "File",
+    "answer": "Education.Engine.Res.AnswerFiles.mt_necessary.txt"
+  },
+  {
+    "intent": "Tips",
+    "qaType": "File",
+    "answer": "Education.Engine.Res.AnswerFiles.mt_tips.txt"
+  }
+]

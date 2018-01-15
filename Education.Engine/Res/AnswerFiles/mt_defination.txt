@@ -1,0 +1,3 @@
+﻿Definition：
+A multiplication table (a times table) is a mathematical table used to define a multiplication operation for an algebraic system. 
+The decimal multiplication table was traditionally taught as an essential part of elementary arithmetic around the world.

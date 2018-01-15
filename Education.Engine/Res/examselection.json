@@ -1,0 +1,7 @@
+﻿{
+  "optionMessage": "Choose examination you want to take.\r\n",
+  "askbackTimeLimitation": 1,
+  "optionRegex": "^[a-cA-C]$",
+  "askbackMessage": "Please input option item only.\r\nOtherwise, you will exis the current process.",
+  "quitMessage": "You have exited the learning process. To enter learning again, input \"I want to do exam\""
+}

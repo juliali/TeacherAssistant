@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0F0E5454-2946-4373-ADDB-E5A8E42860CA}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Education.Engine</RootNamespace>
+    <AssemblyName>Education.Engine</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net">
+      <HintPath>..\libraries\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.1-beta3\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Components\Exam\AnswerMatchSummerizer.cs" />
+    <Compile Include="Components\Exam\DICSSummerizer.cs" />
+    <Compile Include="Components\Exam\IExamSummerizer.cs" />
+    <Compile Include="Components\IntelligenceRoute\IRPreProcessor.cs" />
+    <Compile Include="Components\IntelligenceRoute\IRProcessor.cs" />
+    <Compile Include="Components\QA\IntentMapper.cs" />
+    <Compile Include="Components\QA\IAnswerQuerier.cs" />
+    <Compile Include="Components\QA\MTQuerier.cs" />
+    <Compile Include="Controllers\IRController.cs" />
+    <Compile Include="Controllers\ExamController.cs" />
+    <Compile Include="Controllers\QAController.cs" />
+    <Compile Include="Data\ContextStore.cs" />
+    <Compile Include="Data\Exam\ExamContext.cs" />
+    <Compile Include="Data\Exam\ExamContextStore.cs" />
+    <Compile Include="Data\Exam\ExamInfo.cs" />
+    <Compile Include="Data\Exam\ExamSelectionInfo.cs" />
+    <Compile Include="Data\Exam\ExamInfoStore.cs" />
+    <Compile Include="Data\Exam\ExamSelectionStore.cs" />
+    <Compile Include="Data\EEContext.cs" />
+    <Compile Include="Components\Exam\ExamProcessor.cs" />
+    <Compile Include="Components\Exam\ExamPreProcessor.cs" />
+    <Compile Include="Data\Exam\SummaryInfo.cs" />
+    <Compile Include="Data\IntelligenceRoute\IRContext.cs" />
+    <Compile Include="Data\IntelligenceRoute\IRContextStore.cs" />
+    <Compile Include="Data\IntelligenceRoute\IRInfo.cs" />
+    <Compile Include="Data\IntelligenceRoute\IRInfoStore.cs" />
+    <Compile Include="Data\IntelligenceRoute\IRSelectionInfo.cs" />
+    <Compile Include="Data\IntelligenceRoute\IRSelectionStore.cs" />
+    <Compile Include="Data\LUInfo.cs" />
+    <Compile Include="Data\QA\IntentMapStore.cs" />
+    <Compile Include="Data\QA\QAContext.cs" />
+    <Compile Include="Data\QA\QueryInfo.cs" />
+    <Compile Include="Data\RuleTextStore.cs" />
+    <Compile Include="Main\DialogManager.cs" />
+    <Compile Include="Main\LUHandler.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utils\Utils.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Res\examoptionmap.json" />
+    <EmbeddedResource Include="Res\examselection.json" />
+    <EmbeddedResource Include="Res\dicsitems.json" />
+    <EmbeddedResource Include="Res\dicsreviews.json" />
+    <EmbeddedResource Include="Res\iroptionmap.json" />
+    <EmbeddedResource Include="Res\irselection.json" />
+    <EmbeddedResource Include="Res\qamap.json" />
+    <EmbeddedResource Include="Res\examanswers.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DBHandler\DBHandler.csproj">
+      <Project>{E644238E-0F20-430C-9195-8AF4CEF1D650}</Project>
+      <Name>DBHandler</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{F9AE7F3C-50F7-428B-97F5-B49831D20029}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Res\EntityRules.txt" />
+    <EmbeddedResource Include="Res\ETLRules.txt" />
+    <EmbeddedResource Include="Res\IntentRules.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Res\AnswerFiles\mt_defination.txt" />
+    <EmbeddedResource Include="Res\AnswerFiles\mt_histroy.txt" />
+    <EmbeddedResource Include="Res\AnswerFiles\mt_howtolearn.txt" />
+    <EmbeddedResource Include="Res\AnswerFiles\mt_necessary.txt" />
+    <EmbeddedResource Include="Res\AnswerFiles\mt_patterns.txt" />
+    <EmbeddedResource Include="Res\AnswerFiles\mt_squares.txt" />
+    <EmbeddedResource Include="Res\AnswerFiles\mt_tips.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Data\Store\" />
+    <Folder Include="Res\Database\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

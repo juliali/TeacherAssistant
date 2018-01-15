@@ -1,0 +1,10 @@
+﻿{
+  "a": {
+    "askbackTimeLimitation": 1,
+    "tableName": "IntelligenceRoute",
+    "courseName": "Course1",
+    "description": "",
+    "quitMessage": "Your learning stage will be saved in 8 hours.",
+    "restartMessage": "Do you want to continue last course? Input Y for Yes, or N for No."
+  }
+}
