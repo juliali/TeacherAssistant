@@ -7,18 +7,9 @@ using System.Web;
 namespace DoradoBot.Common.LUEngine.Luis
 {
     public class LuisClient
-    {
-       // private readonly string DefaultAppId = ConfigurationManager.AppSettings["LuisAppId"];
-       // private readonly string DefaultSubscriptionKey = ConfigurationManager.AppSettings["LuisSubscription"];
-
+    {       
         private readonly APIClient client = new APIClient();
-        private string rootURL = "https://api.projectoxford.ai/luis/v1/application";
-
-        /*public LuisClient()
-        {
-            this.AppId = DefaultAppId;
-            this.SubscriptionKey = DefaultSubscriptionKey;
-        }*/
+        private string rootURL = "https://api.projectoxford.ai/luis/v1/application";        
 
         public LuisClient(string appId, string subscriptionKey)
         {            
